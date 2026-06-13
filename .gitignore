@@ -1,19 +1,22 @@
 # Terraform
-*.tfstate
-*.tfstate.*
-.terraform/
-
-
-# Kubernetes
-kubeconfig
+**/.terraform/
+**/.terraform.lock.hcl
+**/*.tfstate
+**/*.tfstate.*
 
 # IDE
 .vscode/
 .idea/
 
-# Linux
+# Vim
 *.swp
 *.swo
+
+# OS
+.DS_Store
+
+# Logs
+*.log
 
 # Python
 __pycache__/
@@ -22,9 +25,5 @@ __pycache__/
 # Node
 node_modules/
 
-# Dotnet
-bin/
-obj/
-
-# Logs
-*.log
+# Misc
+*.bak
